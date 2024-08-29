@@ -1,2 +1,23 @@
-# JUNIOR_SOFTWARE_DEVELOPER_Assessment
-I love Spring Boot and Looking forward to work with this Company! The Assessment was a bit challenging and fun at the same time, I will be greatly exited to work in this company.
+API Documentation
+
+Endpoints
+1. Upload File
+ * Endpoint: /upload
+ * Method: POST
+ * Parameters: file (MultipartFile)
+ * Response:
+    Redirects to confirmSave.html if valid
+    Redirects to uploadForm.html with error message if invalid
+
+2. Save File Data
+ * Endpoint: /save
+ * Method: POST
+
+
+
+
+
+
+
+
+
